@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	width:auto;	
+	height:50px;
+	background-color: red; 
+}
+
+.header p{
+	text-align: center;
+	color : #00F;	
+	font-size : 30px;
+	margin: auto;
+	padding: auto;
+}
+.dangxuat a{
+		
+	text-decoration: none;
+	font-size : 20px;
+	color : #00F;
+}
+.dangxuat a:hover{
+	color: teal;
+}
+.chinh{
+	width: 100%;
+	height: 600px;
+	border: 1px solid #000;
+}
+.chinh ul{
+	width: 200px;
+	height: 500px;
+	list-style:none;
+	text-align: center;
+}
+.chinh ul li{
+  background-color: #4CAF50;
+  border: 1px;
+  color: white;
+  padding: 20px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 4px;
+  cursor: pointer;
+}
+.chinh ul li a{
+	text-decoration: none;
+}
+
+.cackhuvuc{
+	
+}
+.cackhuvuc .khuvuc{
+	clear: both;
+}
+.cackhuvuc .khuvuc p{
+	font-weight: bold;
+	font-size: 20px;
+	color: blue;
+}
+.cackhuvuc .khuvuc ul li{
+	height: 40px;
+	width: 100px;
+	margin: 10 20 20 10;
+	background-color: #CF0;
+	float: left;
+	text-decoration: none;
+	list-style: none;
+}
+.cackhuvuc .khuvuc ul li a{
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	padding: 10px;
+	
+}
+.cackhuvuc .khuvuc ul li > .ban{
+	background: #70A0F1;
+    position: absolute;
+    display: none;
+    width: 230px;
+}
+.cackhuvuc .khuvuc ul li:active .ban{
+	 display: block;
+	 width: 100%;
+	 background: #70A0F1;
+}
+.trangchu a{
+	text-align: right;	
+	list-style: none;
+	text-decoration: none;
+	font-size : 20px;
+	color : #00F;
+	padding-right: 20px;
+}
+.trangchu a:hover{
+	color: teal;
+}
